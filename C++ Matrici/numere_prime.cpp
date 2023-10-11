@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    int a[69][69], n, i, j, k, x, y;
+    int a[50][50], n, i, j, k, x, y;
 
     ifstream f("atestat.in");
     ofstream g("atestat.out");
