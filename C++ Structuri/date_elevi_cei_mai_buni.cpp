@@ -11,7 +11,7 @@ int main() {
     int varsta;
     float medie;
 
-    } elevi[100];
+    } elevi[50];
 
     int i, n, x;
 
