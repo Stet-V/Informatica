@@ -12,14 +12,9 @@ int main() {
     float medie;
 
     } elevi[50];
-<<<<<<< HEAD
-
-    // elev elevi[50];
-=======
 
     // elev elevi[50];
 
->>>>>>> 8a68f5888eb3b41e8e55dd5c2f926ade3001c926
     int i, x;
     
     x = 1;
