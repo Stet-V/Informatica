@@ -11,7 +11,7 @@ int main() {
     int varsta;
     float medie;
 
-    } elevi[100];
+    } elevi[50];
 
     int i, n, x;
 
@@ -43,7 +43,7 @@ int main() {
 
         if (elevi[i].medie == elevi[x].medie){
 
-            cout << elevi[x].nume << " " << elevi[x].varsta << " " << elevi[x].medie << "/n";
+            cout << elevi[x].nume << " " << elevi[x].varsta << " " << elevi[x].medie << "\n";
 
         }
 
