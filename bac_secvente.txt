@@ -1,0 +1,9 @@
+1. d.aria = d.a * d.b;
+
+2. f = f1.x / f1.y + f2.x / f2.y;
+
+3. t = x.b; x.b = y.b; y.b = t;
+
+4. t.p = t.a + t.b + t.c;
+
+5. cout << x.nume << x.clasa << x.medie;
