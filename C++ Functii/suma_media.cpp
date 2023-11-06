@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>2
 #include <fstream>
 
 using namespace std;
@@ -18,6 +18,6 @@ int main(){
 
     suma(x, y, z);
 
-    // cout << z;
+    cout << "\n" << z/2.0;
 
 }
