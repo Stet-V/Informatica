@@ -1,5 +1,5 @@
 /*
-Sa se realizeze in cadrul unui program un subprogram cu doi parametrii 'a' si 'b' unde 'a' este un numar natural iar 'b' este o cifra. 
+Sa se realizeze in cadrul unui program un subprogram cu doi parametri 'a' si 'b', unde 'a' este un numar natural iar 'b' este o cifra. 
 Subprogramul sa afiseze numarul de aparitii a cifrei 'b' in cadrul numarului 'a'. 
 Programul va citi trei numere si o cifra si va afisa numarul de aparitii a cifrei in fiecare din cele trei numere.
 */
