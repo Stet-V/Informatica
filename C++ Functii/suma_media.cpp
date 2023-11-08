@@ -5,6 +5,7 @@ using namespace std;
 void suma(int a, int b, int &s){
 
     s = a + b;
+    
     cout << s;
 
 }

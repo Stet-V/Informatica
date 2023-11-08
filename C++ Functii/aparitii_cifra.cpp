@@ -15,6 +15,7 @@ int aparitii(int a, int b){
     while(a != 0){
 
         if(a % 10 == b) c++;
+        
         a = a / 10;
 
     }

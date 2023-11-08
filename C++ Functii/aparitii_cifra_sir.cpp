@@ -15,6 +15,7 @@ void aparitii(int a, int b, int &c){
     while(a != 0){
 
         if(a % 10 == b) c++;
+        
         a = a / 10;
 
     }
@@ -34,7 +35,7 @@ int main(){
         cin >> A[i];
 
         aparitii(A[i], x, z);
-        
+
         y = y + z;
 
     }
