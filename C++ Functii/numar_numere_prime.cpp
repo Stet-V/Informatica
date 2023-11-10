@@ -8,6 +8,7 @@ void prim(int a, int &c) {
         if (a % i == 0) c++;
     }
 }
+
 int main() {
     int A[50], n, x, y;
     cin >> n;
