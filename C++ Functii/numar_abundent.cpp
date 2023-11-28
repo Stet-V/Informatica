@@ -4,7 +4,6 @@ using namespace std;
 
 int abundent(int n){
     float x = 0, y;
-    int j, i;
     for (int i = 1; i <= n; i++) if (n % i == 0) x = x + i;
     for (int i = 1; i <= n - 1; i++){
         y = 0;
