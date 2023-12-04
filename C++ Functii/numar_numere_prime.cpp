@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+
 void prim(int a, int &c) {
     c = 0;
     if (a == 1) c++;
