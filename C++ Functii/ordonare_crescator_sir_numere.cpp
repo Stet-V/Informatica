@@ -5,10 +5,10 @@ using namespace std;
 void ordonareC(int A[], int n){
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j < n; j++){
-            if (A[j] > A[j+1]){
+            if (A[j] > A[j + 1]){
                 int t = A[j];
-                A[j] = A[j+1];
-                A[j+1] = t;
+                A[j] = A[j + 1];
+                A[j + 1] = t;
             }
         }
     }
