@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void ordonareC(int A[], int n){
+void ordonareC(int (&A)[], int n){
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j < n; j++){
             if (A[j] > A[j + 1]){
