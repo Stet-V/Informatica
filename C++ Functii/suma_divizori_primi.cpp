@@ -3,8 +3,8 @@
 using namespace std;
 
 void divPrim(int n, int &s){
-    int x, y = 1;
-    while (n != 0){
+    int x, y = 2;
+    while (n != 1){
         x = 0;
         while (n % y == 0){
             n = n / y;
