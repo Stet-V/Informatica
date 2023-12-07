@@ -7,7 +7,7 @@ using namespace std;
 // 1. Metoda Bulelor
 
 void bule(int A[50], int n){
-    int a = 0;
+    int a = 1;
     while (a != 1){
         a = 0;
         for (int i = 1; i < n; i++){
