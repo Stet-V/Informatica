@@ -8,7 +8,7 @@ using namespace std;
 
 void bule(int A[50], int n){
     int a = 1;
-    while (a != 1){
+    while (a != 0){
         a = 0;
         for (int i = 1; i < n; i++){
             if (A[i] > A[i+1]){
