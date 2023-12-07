@@ -6,7 +6,7 @@ using namespace std;
 
 // 1. Metoda Bulelor
 
-void bule(int A[50], int n){
+void bule(int A[], int n){
     int a = 1;
     while (a != 0){
         a = 0;
@@ -23,7 +23,7 @@ void bule(int A[50], int n){
 
 // 2. Metoda Interschimbarii
 
-void interschimbare(int A[50], int n){
+void interschimbare(int A[], int n){
     for (int i = 1; i <= n - 1; i++){
         for (int j = i + 1; j <= n; j++){
             if (A[j] < A[i]){
