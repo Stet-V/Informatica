@@ -4,21 +4,7 @@ using namespace std;
 
 // Algoritmi de Sortare a Unui Sir de Numere
 
-// 1. Metoda Interschimbarii
-
-void interschimbare(int A[50], int n){
-    for (int i = 1; i <= n - 1; i++){
-        for (int j = i + 1; j <= n; j++){
-            if (A[j] < A[i]){
-                int t = A[i];
-                A[i] = A[j];
-                A[j] = t;
-            }
-        }
-    }
-}
-
-// 2. Metoda Bulelor
+// 1. Metoda Bulelor
 
 void bule(int A[50], int n){
     int a = 0;
@@ -30,6 +16,20 @@ void bule(int A[50], int n){
                 A[i] = A[i+1];
                 A[i + 1] = t;
                 a = 0;
+            }
+        }
+    }
+}
+
+// 2. Metoda Interschimbarii
+
+void interschimbare(int A[50], int n){
+    for (int i = 1; i <= n - 1; i++){
+        for (int j = i + 1; j <= n; j++){
+            if (A[j] < A[i]){
+                int t = A[i];
+                A[i] = A[j];
+                A[j] = t;
             }
         }
     }
