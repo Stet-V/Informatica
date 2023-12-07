@@ -8,14 +8,14 @@ using namespace std;
 
 void bule(int A[50], int n){
     int a = 0;
-    while (a == 0){
-        a = 1;
+    while (a != 1){
+        a = 0;
         for (int i = 1; i < n; i++){
             if (A[i] > A[i+1]){
                 int t = A[i];
                 A[i] = A[i+1];
                 A[i + 1] = t;
-                a = 0;
+                a = 1;
             }
         }
     }
