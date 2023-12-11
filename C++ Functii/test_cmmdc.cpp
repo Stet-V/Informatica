@@ -14,7 +14,7 @@ int cmmdc(int a, int b){
 int main(){
     int n, a = 1, b = 1, A[50]; 
     cin >> n;
-    for (int i 1; i <= n; i++){
+    for (int i = 1; i <= n; i++){
         cin >> A[i];
         if (A[i] < A[a]) a = i;
         if (A[i] > A[b]) b = i;
