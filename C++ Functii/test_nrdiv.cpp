@@ -12,7 +12,6 @@ void nrdiv(int n, int &m){
             y = x;
             m = i;
         }
-        
     }
 }
 
