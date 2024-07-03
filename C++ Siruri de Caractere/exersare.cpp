@@ -3,8 +3,7 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
     char s[50], rez[50];
     strcpy(s, "sir de caractere");
     strcat(s, " concatenare, adica adaugare in sir");
